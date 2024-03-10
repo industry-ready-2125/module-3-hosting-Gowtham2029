@@ -1,0 +1,369 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+
+.names {
+  display: flex;
+  font-size: medium;
+}
+
+.names > li {
+  list-style: none;
+  margin: 0px 10px;
+  padding: 1rem 0.5rem;
+}
+
+.names > li > select {
+  border: none;
+}
+
+.names > li:hover {
+  border-bottom: #0070ba 0.2rem solid;
+}
+
+.names > li > .dropdown {
+  display: none;
+  position: absolute;
+  top: 5rem;
+}
+
+/* .names > li > .dropdown > li{
+    padding: 1rem 0.5rem;
+    margin: 0px 10px;
+    list-style: none;
+    
+}
+
+.names > li:hover > .dropdown {
+  display: block;
+  list-style-type: none;
+  background-color: #012169;
+
+  color: white;
+  padding: 3rem;
+  max-width: 100%;
+  width: auto;
+} */
+
+.auth > a {
+  text-decoration: none;
+  color: black;
+  margin: 0rem 0.1rem;
+}
+
+.auth > .login {
+  border: 1px #0070ba groove;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.2rem;
+  color: #0070ba;
+  font-weight: bold;
+  font-size: small;
+}
+
+.auth > .signup {
+  color: white;
+  border-radius: 1.2rem;
+  background-color: #0070ba;
+  padding: 0.7rem 1.2rem;
+  font-weight: bold;
+  font-size: small;
+}
+
+.bg-vid > .vid-container {
+  background-color: #029ddf;
+}
+
+/* .bg-vid > .vid-container video {
+  position: absolute;
+  bottom: 0px;
+  top: 4rem;
+} */
+
+.vid-container > h1 {
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+  right: 20rem;
+  font-size: 2rem;
+
+  text-wrap: balance;
+  color: white;
+  text-align: center;
+
+  z-index: 2;
+}
+
+.vid-container > h1 > button {
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  margin: 1rem 0rem;
+  z-index: 2;
+}
+
+.little_sec > h1 {
+  padding: 1rem 0rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #012169;
+}
+
+.little_sec > h1 > button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: #012169;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.shopping > .shop-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shopping > .shop-container > .shop-one {
+  width: 45%;
+  font-weight: normal;
+}
+
+.shopping > .shop-container > .shop-two {
+  font-weight: normal;
+}
+
+.shopping > .shop-container > .shop-one > button {
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  border: #0070ba 1px groove;
+  color: #0070ba;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.payment > .payment-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.payment > .payment-container > .payment-two {
+  width: 40%;
+  font-weight: normal;
+}
+
+.payment > .payment-container > .payment-two > button {
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  border: #0070ba 1px groove;
+  color: #0070ba;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.online > .online_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.online > .online_container > .online-one {
+  width: 43%;
+  font-weight: normal;
+}
+
+.online > .online_container > .online-one > button {
+  padding: 1rem 6rem;
+  border-radius: 2rem;
+  border: #0070ba 1px groove;
+  color: #0070ba;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.brands > .brands-container > .brands-two {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.brands > .brands-container > .brands-two > img {
+  margin: 0rem 1rem;
+}
+
+.community > .community-container {
+  margin-top: 9%;
+  margin-bottom: 4%;
+  padding: 1rem 0rem 3rem 0rem;
+}
+
+.community > .community-container > .community-one > h1 > button {
+  padding: 1rem 7rem;
+  border-radius: 2rem;
+  border: #0070ba 1px groove;
+  color: #0070ba;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.community > .community-container > .community-two {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.community > .community-container > .community-two > h1 {
+  margin: 0.2rem;
+  border-radius: 1rem;
+  padding: 0.4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ending > .ending-container > .ending-one {
+  margin: 1rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0rem 10rem;
+}
+
+.ending > .ending-container > .ending-one > ul {
+  list-style: none;
+  display: flex;
+}
+
+.ending > .ending-container > .ending-one > ul > li {
+  margin: 0rem 1rem;
+}
+
+.ending > .ending-container > .ending-two {
+  margin: 1rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ending > .ending-container > .ending-two > ul {
+  display: flex;
+}
+
+.ending > .ending-container > .ending-two > ul > li {
+  margin: 0rem 0.5rem;
+}
+
+.login-form {
+  text-align: center;
+  padding: 10%;
+}
+
+.--login-form {
+  display: flex;
+
+  align-items: center;
+}
+
+.email_phn::placeholder {
+  font-size: larger;
+}
+
+.Next_button {
+  padding: 0.8rem 10rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: #012169;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.sign_button {
+  padding: 0.8rem 9rem;
+  border-radius: 2rem;
+  background-color: white;
+  color: #012169;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.sign_button:hover{
+   cursor: pointer;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.radio1 {
+  accent-color: #de0063;
+  height: 1rem;
+  transform: scale(2);
+}
+.radio2 {
+  accent-color: #012169;
+  height: 1rem;
+  transform: scale(2);
+}
+.next_button {
+  padding: 0.8rem 3rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: #0070ba;
+  font-weight: bold;
+  font-size: medium;
+
+  margin: 1rem 0rem;
+}
+
+.img-container {
+  background-color: white;
+  width: 45%;
+  margin: 5% 30%;
+  padding: 3rem;
+  border-radius: 1rem;
+  /* border: 2px solid black; */
+}
+
+.bg-image {
+  height: 100%;
+  padding: 2rem;
+  background: url("https://s3-eu-west-1.amazonaws.com/video.gallereplay.com/artistarea/Business%20Man%20and%20Woman%20Shake%20Hands_fca403c2-b2b0-4747-bb59-5e13bc1c5f1d/Cinemagraph_watermark_purchasepage/2_large_files/cinemagraph.jpg");
+  z-index: -1;
+}
